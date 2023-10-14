@@ -2,6 +2,8 @@ package com.example.ud_2_7_practica_constrait_layout_usuario_contrasea
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.constraint.Barrier
+import android.support.constraint.ConstraintLayout
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -31,5 +33,9 @@ class MainActivity : AppCompatActivity() {
                 sesionIniciada.setTextSize(50f) //damos el tamaño a la sesionIniciada
             }
         }
+
+
+
+
     }
 }
