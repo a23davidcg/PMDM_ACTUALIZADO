@@ -2,7 +2,10 @@
 <androidx.fragment.app.FragmentContainerView
     xmlns:android="http://schemas.android.com/apk/res/android"
      android:layout_width="wrap_content"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content"
+    android:id="@+id/fragmentContainerID"
+    android:name="com.example.ud03_1_secretapp.WelcomeFragment"
+    android:padding="16dp">
 
 
 </androidx.fragment.app.FragmentContainerView>
