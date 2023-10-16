@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UD_2_7_Practica_ConstraitLayout_Usuario_Contraseña.iml" filepath="$PROJECT_DIR$/.idea/modules/UD_2_7_Practica_ConstraitLayout_Usuario_Contraseña.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UD_2_7_Practica_ConstraitLayout_Usuario_Contraseña.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UD_2_7_Practica_ConstraitLayout_Usuario_Contraseña.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UD_2_7_Practica_ConstraitLayout_Usuario_Contraseña.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UD_2_7_Practica_ConstraitLayout_Usuario_Contraseña.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UD_2_7_Practica_ConstraitLayout_Usuario_Contraseña.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UD_2_7_Practica_ConstraitLayout_Usuario_Contraseña.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UD_2_7_Practica_ConstraitLayout_Usuario_Contraseña.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UD_2_7_Practica_ConstraitLayout_Usuario_Contraseña.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
