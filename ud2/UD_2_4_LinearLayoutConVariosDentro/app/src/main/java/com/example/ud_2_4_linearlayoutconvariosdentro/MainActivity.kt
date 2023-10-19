@@ -16,11 +16,13 @@ class MainActivity : AppCompatActivity() {
         val llamando = findViewById<TextView>(R.id.textView2)
         val nombreLlamada = findViewById<TextView>(R.id.Juan)
         val texto = nombreLlamada.text.toString()
+        
         botonLlamada.setOnClickListener(){
             //Una vez se presiona el boton se eejcuta el siguiente código
             val mensaje = "Se está llamando a  " + texto
 
             llamando.text = mensaje
+
 
 
 
