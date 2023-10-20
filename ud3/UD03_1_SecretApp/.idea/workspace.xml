@@ -53,6 +53,13 @@
       <change beforePath="$PROJECT_DIR$/../SecretApp/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SecretApp/settings.gradle.kts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/secretapp/EncryptFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/secretapp/EncryptFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/secretapp/MessageFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/secretapp/MessageFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/secretapp/WelcomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/secretapp/WelcomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/build.gradle.kts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/proguard-rules.pro" beforeDir="false" />
@@ -160,7 +167,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2WqLAbKhPRbp3PL2ynqd7xbK3c0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

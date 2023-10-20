@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import androidx.navigation.findNavController
 
 
 class WelcomeFragment : Fragment() {
@@ -14,8 +16,14 @@ class WelcomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_welcome, container, false)
+        //O que devolve debe de almacenarse nunha variable
+        val view = inflater.inflate(R.layout.fragment_welcome, container, false)
+        val botonStart = view.findViewById<Button>(R.id.button_start)
+        botonStart.setOnClickListener {
+            view.findNavController().navigate(R.id.action_welcomeFragment_to_messageFragment2)
+
+        }
+        return view
 
     }
 
