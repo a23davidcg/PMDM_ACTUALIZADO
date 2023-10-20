@@ -10,7 +10,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4be15529-dfd8-4cff-bcf7-ad956b64b443" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../ud2/UD_2_4_LinearLayoutConVariosDentro/app/src/main/java/com/example/ud_2_4_linearlayoutconvariosdentro/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ud2/UD_2_4_LinearLayoutConVariosDentro/app/src/main/java/com/example/ud_2_4_linearlayoutconvariosdentro/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/androidTest/java/com/example/secretapp/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/java/com/example/secretapp/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/app/src/test/java/com/example/secretapp/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecretApp/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/androidTest/java/com/example/secretapp/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/secretapp/EncryptFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/secretapp/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/secretapp/MessageFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/secretapp/WelcomeFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/fragment_encrypt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/fragment_message.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/fragment_welcome.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/navigation/nav_graph.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values-es/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/test/java/com/example/secretapp/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle.kts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +108,44 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SecretApp" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SecretApp" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SecretApp" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SecretApp" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -33,6 +156,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2WqLAbKhPRbp3PL2ynqd7xbK3c0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,14 +170,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
-    "android.gradle.sync.needed": "true",
-    "cidr.known.project.marker": "true"
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/media/MV-Linux/MaquinasVirtuais/PMDM/ud3/UD03_1_SecretApp",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "experimental"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="UD03_1_SecretApp.app" />
+      <module name="SecretApp.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
