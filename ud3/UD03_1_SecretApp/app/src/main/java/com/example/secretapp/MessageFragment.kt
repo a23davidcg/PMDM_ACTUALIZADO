@@ -23,7 +23,7 @@ class MessageFragment : Fragment() {
 
     buttonNext.setOnClickListener {
             val message = view.findViewById<EditText>(R.id.edit_text).text.toString()
-            val actions = MessageFragmentDirections.actionMessageFragmentToEncryptFragment()
+            val actions = MessageFragmentDirections.actionMessageFragmentToEncryptFragment(message)
             view.findNavController().navigate(actions)
 
         }

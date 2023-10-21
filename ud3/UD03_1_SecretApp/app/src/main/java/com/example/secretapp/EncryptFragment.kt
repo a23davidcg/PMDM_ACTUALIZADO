@@ -26,13 +26,14 @@ class EncryptFragment : Fragment() {
     //Para cifrarlo recoger el numero y le sumamos 3, no se puede usar los if, para la resolucion del problema
     //Si es una letra lo cifra, si es un caracter especial, nos lo devolverá tal cual.
 
-    fun cifrado (message: String) =message.map{
-        val letra = it.uppercase()
-        letra +3
-        
-
-
-
-
+    fun Char.cifradoCesar(desplazamiento: Int): Char {
+        if (!isLetter()) return this
+        val alfabeto = 'a'..'z'
+        val mayuscula = isUpperCase()
+        val caracterNormalizado = toLowerCase()
+        val indice = (alfabeto.indexOf(caracterNormalizado) + desplazamiento + 26) % 26
+        val caracterCifrado = alfabeto.elementAt(indice)
+        return if (mayuscula) caracterCifrado.toUpperCase() else caracterCifrado
     }
 }
+
