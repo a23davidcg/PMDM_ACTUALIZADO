@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="my_dark_primary">#4CAF50</color>
+    <color name="my_light_primary">#FFEB3B</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">ChatApp</string>
+    <style name="Base.Theme.ChatApp" parent="Theme.Material3.DayNight">
+        
+        <item name="colorPrimary">@color/my_light_primary</item>
+    </style>
+    <style name="Theme.ChatApp" parent="Base.Theme.ChatApp"/>
+</resources>
