@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import androidx.navigation.NavHostController
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
+import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.appbar.MaterialToolbar
 
 class MainActivity : AppCompatActivity() {
@@ -14,6 +16,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val toolbar = findViewById<MaterialToolbar>(R.id.toolbar)
+        val navHostController = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostController//Una vex que este inflado el fragmento busca por el id lo que hay dentro dle navegdor
+        val navHostFragment = findViewById<MaterialToolbar>(R.id.toolbar)
+        toolbar.setupWithNavController(navHostFragment.navController)
+
         setSupportActionBar(toolbar)
 
     }
