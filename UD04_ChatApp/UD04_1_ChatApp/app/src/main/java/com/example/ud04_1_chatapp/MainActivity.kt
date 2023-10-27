@@ -4,23 +4,56 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import androidx.core.graphics.toColor
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.NavHostController
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.appbar.MaterialToolbar
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val toolbar = findViewById<MaterialToolbar>(R.id.toolbar)
-        val navHostController = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostController//Una vex que este inflado el fragmento busca por el id lo que hay dentro dle navegdor
-        val navHostFragment = findViewById<MaterialToolbar>(R.id.toolbar)
+        //Acceder al host de navegacion, y o casteamos como un fragmento de navegacion de host
+        val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment//Una vex que este inflado el fragmento busca por el id lo que hay dentro dle navegdor
+        //Accedemos al controlador de navegacion
+        val navController = navHostFragment.navController
+        //Desde el controlador de navegacion podemos acceder al grapho
         toolbar.setupWithNavController(navHostFragment.navController)
 
+
         setSupportActionBar(toolbar)
+
+        //Para que coja la configuración necesaria
+
+        var builderApp = AppBarConfiguration.Builder(navController.graph)
+        val appBarConfiguration = builderApp.build()
+        toolbar.setupWithNavController(navController, appBarConfiguration)
+
+        //Recuperar barra inferior
+        val bottomBar = findViewById<BottomNavigationView>(R.id.bottom_navigation)
+                //Pasamoslleo controlador de navegacion para poderlle pasar o grapho para que sepa como pintar
+        bottomBar.setupWithNavController(navController)
+
+
+        //FIXME: PANEL LATERAL
+
+        val drawerLayout = findViewById<DrawerLayout>(R.id.drawer_layout)
+        builderApp.setOpenableLayout(drawerLayout)
+
+        
+
+
+
+
+
 
     }
 

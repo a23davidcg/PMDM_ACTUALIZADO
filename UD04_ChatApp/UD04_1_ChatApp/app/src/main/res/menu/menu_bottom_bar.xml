@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fragment_inbox"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="Inbox"
+        app:showAsAction="always"
+        />
+    <item
+
+        android:id="@+id/fragment_mensaje"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="Sent message"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/fragment_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Help"
+        app:showAsAction="always"
+        />
+
+
+</menu>

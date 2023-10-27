@@ -3,15 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/fragment_help">
+    app:startDestination="@id/fragment_inbox">
 
     <fragment
         android:id="@+id/fragment_inbox"
         android:name="com.example.ud04_1_chatapp.fragment_inbox"
-        android:label="fragment_inbox"
+        android:label="inbox"
         tools:layout="@layout/fragment_inbox" />
     <fragment
         android:id="@+id/fragment_help"
         android:name="com.example.ud04_1_chatapp.fragment_help"
-        android:label="fragment_help" />
+        android:label="help" />
+    <fragment
+        android:id="@+id/fragment_mensaje"
+        android:name="com.example.ud04_1_chatapp.fragment_mensaje"
+        android:label="sent items" />
 </navigation>
