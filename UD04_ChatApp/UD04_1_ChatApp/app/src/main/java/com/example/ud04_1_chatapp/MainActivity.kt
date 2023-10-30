@@ -15,6 +15,7 @@ import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(toolbar)
 
-        //Para que coja la configuración necesaria
+        //Para que coja la configuración necesaria para la barra de navegación
 
         var builderApp = AppBarConfiguration.Builder(navController.graph)
         val appBarConfiguration = builderApp.build()
@@ -43,10 +44,14 @@ class MainActivity : AppCompatActivity() {
         bottomBar.setupWithNavController(navController)
 
 
-        //FIXME: PANEL LATERAL
+        //FIXME: PANEL LATERAL- Referencia drawer layout
 
         val drawerLayout = findViewById<DrawerLayout>(R.id.drawer_layout)
         builderApp.setOpenableLayout(drawerLayout)
+
+        val navigationView = findViewById<NavigationView>(R.id.nav_view)
+        navigationView.setupWithNavController()
+
 
         
 
