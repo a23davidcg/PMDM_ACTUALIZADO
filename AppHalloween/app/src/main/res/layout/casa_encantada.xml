@@ -24,12 +24,14 @@
         android:layout_height="300dp"
         android:src="@drawable/casa"
         android:scaleType="centerCrop"
+        android:layout_marginTop="15dp"
         >
     </ImageView>
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
 
         <TextView
             android:id="@+id/textView"
@@ -38,7 +40,7 @@
             android:text="Halloween, también conocido como la Noche de Brujas, es una de las festividades más misteriosas y emocionantes del año. Cada 31 de octubre, personas de todo el mundo se sumergen en un mundo de fantasía y magia, lleno de calabazas iluminadas, disfraces espeluznantes y un aura de misterio. Esta festividad tiene sus raíces en antiguas tradiciones celtas y ha evolucionado con el tiempo para convertirse en una celebración que combina lo macabro, lo divertido y lo siniestro. El elemento más icónico de Halloween es, sin duda, la calabaza tallada, conocida como la lantern. Las personas tallan rostros aterradores en calabazas y las iluminan con velas para asustar a los espíritus malignos. Los niños se emocionan al buscar la calabaza perfecta y luego trabajar en su diseño único. Es un ritual que combina creatividad y un toque de misterio.
 Los disfraces son otra parte fundamental de Halloween. Tanto niños como adultos se esfuerzan por encontrar el atuendo perfecto que les permita convertirse en sus personajes favoritos, ya sea un monstruo, un superhéroe, un villano o incluso un personaje histórico. Las tiendas de disfraces se llenan de personas buscando la vestimenta ideal para una noche de diversión y travesuras.
 Las casas se decoran de manera extravagante con telarañas falsas, esqueletos colgantes y luces parpadeantes. Los propietarios compiten para ver quién puede crear la casa más espeluznante y aterradora. Es común ver a niños y adultos explorando vecindarios en busca de las casas mejor decoradas y disfrutando de la experiencia de dar un buen susto.
-El tradicional truco o trato es la actividad principal para los más jóvenes en Halloween. Los niños se visten con sus disfraces y recorren las calles, golpeando puertas y gritando "¡truco o trato!" para recibir dulces y golosinas. Es una tradición que combina la emoción de la noche con una dosis de azúcar.
+El tradicional truco o trato es la actividad principal para los más jóvenes en Halloween. Los niños se visten con sus disfraces y recorren las calles, golpeando puertas y gritando ¡truco o trato! para recibir dulces y golosinas. Es una tradición que combina la emoción de la noche con una dosis de azúcar.
 Para los más valientes, las casas encantadas y los laberintos del terror ofrecen una experiencia intensa. Estos lugares están diseñados para asustar y emocionar a los visitantes, sumergiéndolos en un mundo de pesadillas y horror. Las personas buscan la adrenalina y la emoción de enfrentar sus miedos en un entorno controlado.
 Halloween es una festividad que celebra la dualidad de la vida y la muerte, la luz y la oscuridad. Es una noche en la que podemos explorar nuestro lado más aterrador y, al mismo tiempo, disfrutar de la diversión y la imaginación. Es un recordatorio de que, a pesar de nuestros miedos, siempre podemos encontrar alegría y risas en la celebración de lo desconocido. ¡Feliz Halloween!" />
     </ScrollView>

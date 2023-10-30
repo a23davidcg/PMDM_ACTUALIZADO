@@ -10,6 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0368c140-0a01-4b8e-aade-1eb9ea037522" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../AppHalloween/app/src/main/res/drawable/bosque.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppHalloween/app/src/main/res/drawable/casaterror.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppHalloween/app/src/main/res/navigation/main_to_seleccionar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppHalloween/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppHalloween/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppHalloween/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppHalloween/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppHalloween/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../AppHalloween/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppHalloween/app/src/main/res/layout/casa_encantada.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppHalloween/app/src/main/res/layout/casa_encantada.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppHalloween/app/src/main/res/layout/seleccionar_tematica.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppHalloween/app/src/main/res/layout/seleccionar_tematica.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +30,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -39,8 +59,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "android.gradle.sync.needed": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/media/MV-Linux/MaquinasVirtuais/PMDM/ud3"
+    "last_opened_file_path": "D:/DAM 2/PMDM/PMDM_ACTUALIZADO/UD04_ChatApp"
   }
 }]]></component>
   <component name="RunManager">
@@ -106,9 +127,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
