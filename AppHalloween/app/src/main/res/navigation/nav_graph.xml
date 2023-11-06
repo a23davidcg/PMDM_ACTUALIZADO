@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/main">
 
+    <fragment
+        android:id="@+id/main"
+        android:name="com.example.apphalloween.Main"
+        android:label="Main" >
+        <action
+            android:id="@+id/action_main_to_seleccionar"
+            app:destination="@id/seleccionar" />
+    </fragment>
+    <fragment
+        android:id="@+id/seleccionar"
+        android:name="com.example.apphalloween.seleccionar"
+        android:label="seleccionar" >
+        <action
+            android:id="@+id/action_seleccionar_to_casa_encantada"
+            app:destination="@id/casa_encantada" />
+    </fragment>
+    <fragment
+        android:id="@+id/casa_encantada"
+        android:name="com.example.apphalloween.casa_encantada"
+        android:label="casa_encantada" />
 </navigation>

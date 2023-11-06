@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         builderApp.setOpenableLayout(drawerLayout)
 
         val navigationView = findViewById<NavigationView>(R.id.nav_view)
-        navigationView.setupWithNavController()
+        navigationView.setupWithNavController(navController)
 
 
         

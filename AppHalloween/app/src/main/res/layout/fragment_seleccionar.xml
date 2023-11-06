@@ -38,7 +38,7 @@
             android:id="@+id/casaterror"
             android:layout_width="wrap_content"
             android:layout_height="250dp"
-            android:src="@drawable/casaTerror"
+            android:src="@drawable/casaterror"
             android:layout_marginTop="330dp"
             android:scaleType="centerCrop">
 
