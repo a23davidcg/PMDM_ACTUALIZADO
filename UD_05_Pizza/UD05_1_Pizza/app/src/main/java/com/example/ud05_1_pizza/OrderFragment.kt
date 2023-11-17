@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.chip.Chip
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.snackbar.Snackbar
 
 /**
  * A simple [Fragment] subclass.
@@ -37,6 +38,7 @@ class OrderFragment : Fragment() {
             if (pizzaType == -1) {
                 msg = "Debes seleccionar un tipo de pizza"
                 Toast.makeText(activity, msg, Toast.LENGTH_LONG).show()
+
             } else {
                 msg = when (pizzaType) {
                     R.id.radio_margarita -> "Margarita"
@@ -46,8 +48,17 @@ class OrderFragment : Fragment() {
                 }
                 //Extras
                 var parmesano = view.findViewById<Chip>(R.id.chip_parmesano)
-                if (parmesano.isChecked) msg+= "con parmesano"
+                if (parmesano.isChecked) msg += "con parmesano"
+                var tomate = view.findViewById<Chip>(R.id.chip_tomate_cherry)
+                if (tomate.isChecked) msg += "Con tomate"
+
             }
+            val snackbar = Snackbar.make(fabNext, msg, Snackbar.LENGTH_SHORT)
+            snackbar.setAction("Undo"){
+
+            }
+
+            snackbar.show()
         }
         return view
     }
