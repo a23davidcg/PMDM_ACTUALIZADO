@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/encontrarPersonas"
+        android:title="Encontrar personas"
+        android:icon="@drawable/baseline_people_24"/>
+    <item
+        android:id="@+id/encontrarAmigos"
+        android:title="Encontrar amigos"
+        android:icon="@drawable/baseline_location_searching_24"/>
+
+</menu>
