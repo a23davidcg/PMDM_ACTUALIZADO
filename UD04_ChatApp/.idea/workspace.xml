@@ -10,8 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0368c140-0a01-4b8e-aade-1eb9ea037522" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD_05_Pizza/UD05_1_Pizza/app/src/main/java/com/example/ud05_1_pizza/OrderFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../UD_05_Pizza/UD05_1_Pizza/app/src/main/java/com/example/ud05_1_pizza/OrderFragment.kt" afterDir="false" />
+>>>>>>> 8b7b098256b5b0e5c6881d36bba9c2541f2b3b95
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
