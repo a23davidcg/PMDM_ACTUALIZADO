@@ -15,7 +15,8 @@
         android:src="@drawable/baseline_photo_24"
         app:layout_constraintBottom_toTopOf="@+id/registroButton"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="-1dp" />
+        tools:layout_editor_absoluteX="-1dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/registroButton"
