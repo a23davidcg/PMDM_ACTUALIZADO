@@ -2,6 +2,11 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
+
+//para el login y registro
+    id("com.google.gms.google-services")
+
+
 }
 
 android {
@@ -54,5 +59,18 @@ dependencies {
 
     //añadido a mayores
     implementation ("com.google.android.material:material:1.10.0")
+
+    //Para personalizar los botones
+
+    //implementarlo libreria para la autenticacion
+    implementation("com.google.firebase:firebase-auth:22.3.0")
+
+//import firebase BoM
+    implementation(platform("com.google.firebase:firebase-bom:32.6.0"))
+
+    implementation("com.google.firebase:firebase-analytics")
+
+
+
 
 }
