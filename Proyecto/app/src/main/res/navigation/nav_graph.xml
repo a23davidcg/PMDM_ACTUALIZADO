@@ -12,6 +12,9 @@
         <action
             android:id="@+id/action_menuInicio_to_mapaFragment"
             app:destination="@id/mapaFragment" />
+        <action
+            android:id="@+id/action_menuInicio_to_activitiesFragment"
+            app:destination="@id/activitiesFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -45,4 +48,8 @@
         android:name="com.example.proyecto.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/activitiesFragment"
+        android:name="com.example.proyecto.ActivitiesFragment"
+        android:label="ActivitiesFragment" />
 </navigation>
