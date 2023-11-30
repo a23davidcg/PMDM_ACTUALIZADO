@@ -15,6 +15,12 @@
         <action
             android:id="@+id/action_menuInicio_to_activitiesFragment"
             app:destination="@id/activitiesFragment" />
+        <action
+            android:id="@+id/action_menuInicio_to_agregarAmigosActivity"
+            app:destination="@id/agregarAmigosActivity" />
+        <action
+            android:id="@+id/action_menuInicio_to_listaAmigosActivity"
+            app:destination="@id/listaAmigosActivity" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -52,4 +58,12 @@
         android:id="@+id/activitiesFragment"
         android:name="com.example.proyecto.ActivitiesFragment"
         android:label="ActivitiesFragment" />
+    <activity
+        android:id="@+id/agregarAmigosActivity"
+        android:name="AgregarAmigosActivity"
+        android:label="AgregarAmigosActivity" />
+    <activity
+        android:id="@+id/listaAmigosActivity"
+        android:name="ListaAmigosActivity"
+        android:label="ListaAmigosActivity" />
 </navigation>

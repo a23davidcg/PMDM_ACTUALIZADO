@@ -8,7 +8,10 @@
         android:title="Encontrar" />
     <item
         android:id="@+id/AmigosRecientes"
-        android:title="Amigos Recientes" />
+        android:title="Amigos" />
+    <item
+        android:id="@+id/AniadirAmigos"
+        android:title="Añadir Amigos"/>
 
     <!--Haciendo grupos, se puede mostrar una linea que los separa como en la siguintes lineas-->
 

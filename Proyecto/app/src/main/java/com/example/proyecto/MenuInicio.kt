@@ -52,6 +52,7 @@ class MenuInicio : Fragment() {
                 }
 
                 R.id.Encontrar -> {
+                    findNavController().navigate(R.id.action_menuInicio_to_mapaFragment)
 
                     // Acción para la opción 2
                     // Puedes cargar un nuevo layout, iniciar una actividad, o realizar la acción que desees
@@ -60,11 +61,16 @@ class MenuInicio : Fragment() {
                 }
 
                 R.id.AmigosRecientes -> {
+                    findNavController().navigate(R.id.action_menuInicio_to_listaAmigosActivity)
                     // Acción para la opción 2
                     // Puedes cargar un nuevo layout, iniciar una actividad, o realizar la acción que desees
                     // replaceFragment(Fragment2())
                     return@setNavigationItemSelectedListener true
 
+                }
+                R.id.AniadirAmigos -> {
+                    findNavController().navigate(R.id.action_menuInicio_to_agregarAmigosActivity)
+                    return@setNavigationItemSelectedListener true
                 }
 
                 else -> {
