@@ -77,6 +77,8 @@ dependencies {
     //Animaciones de los botones de los botones de las actividades
     implementation("com.airbnb.android:lottie:3.4.2")
 
+//Implementar para los maps
 
+    implementation("com.google.android.gms:play-services-maps:18.2.0")
 
 }

@@ -1,19 +1,29 @@
 import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.ListView
-import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import com.example.proyecto.R
 
-class ListaAmigosActivity : AppCompatActivity() {
+class ListaAmigosFragment : Fragment() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.fragment_lista_amigos)
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_lista_amigos, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
         val listaAmigos = obtenerListaAmigos()
 
-        val listView: ListView = findViewById(R.id.listView)
-        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, listaAmigos)
+        val listView: ListView = view.findViewById(R.id.listView)
+        val adapter = ArrayAdapter(requireContext(), android.R.layout.simple_list_item_1, listaAmigos)
         listView.adapter = adapter
     }
 
