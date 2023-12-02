@@ -10,17 +10,17 @@
         android:name="com.example.proyecto.MenuInicioFragment"
         android:label="MenuInicio" >
         <action
-            android:id="@+id/action_menuInicio_to_mapaFragment"
-            app:destination="@id/mapaFragment" />
-        <action
             android:id="@+id/action_menuInicio_to_activitiesFragment"
             app:destination="@id/activitiesFragment" />
         <action
-            android:id="@+id/action_menuInicio_to_agregarAmigosActivity"
-            app:destination="@id/agregarAmigosActivity" />
+            android:id="@+id/action_menuInicio_to_listaAmigosFragment"
+            app:destination="@id/listaAmigosFragment" />
         <action
-            android:id="@+id/action_menuInicio_to_listaAmigosActivity"
-            app:destination="@id/listaAmigosActivity" />
+            android:id="@+id/action_menuInicio_to_aniadirAmigosFragment"
+            app:destination="@id/aniadirAmigosFragment" />
+        <action
+            android:id="@+id/action_menuInicio_to_mapaFragment"
+            app:destination="@id/mapaFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -42,14 +42,6 @@
             app:destination="@id/registerFragment" />
     </fragment>
     <fragment
-        android:id="@+id/mapaFragment"
-        android:name="com.example.proyecto.MapaFragment"
-        android:label="MapaFragment" >
-        <action
-            android:id="@+id/action_mapaFragment_to_menuInicio"
-            app:destination="@id/menuInicio" />
-    </fragment>
-    <fragment
         android:id="@+id/registerFragment"
         android:name="com.example.proyecto.RegisterFragment"
         android:label="fragment_register"
@@ -58,12 +50,16 @@
         android:id="@+id/activitiesFragment"
         android:name="com.example.proyecto.ActivitiesFragment"
         android:label="ActivitiesFragment" />
-    <activity
-        android:id="@+id/agregarAmigosActivity"
-        android:name="AgregarAmigosActivity"
-        android:label="AgregarAmigosActivity" />
-    <activity
-        android:id="@+id/listaAmigosActivity"
-        android:name="ListaAmigosActivity"
-        android:label="ListaAmigosActivity" />
+    <fragment
+        android:id="@+id/listaAmigosFragment"
+        android:name="ListaAmigosFragment"
+        android:label="ListaAmigosFragment" />
+    <fragment
+        android:id="@+id/aniadirAmigosFragment"
+        android:name="AniadirAmigosFragment"
+        android:label="AniadirAmigosFragment" />
+    <fragment
+        android:id="@+id/mapaFragment"
+        android:name="MapaFragment"
+        android:label="MapaFragment" />
 </navigation>

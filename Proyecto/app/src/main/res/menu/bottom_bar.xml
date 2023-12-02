@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/add_icon_navigation"
+        android:id="@+id/nuevoLugar"
         android:title="Nuevo lugar"
         android:icon="@drawable/baseline_add_24" />
     <item
-        android:id="@+id/person_icon_navigation"
-        android:title="Compañeros"
+        android:id="@+id/amigosBottomBar"
+        android:title="Amigos"
         android:icon="@drawable/baseline_person_24" />
     <item
-        android:id="@+id/place_icon_navigation"
+        android:id="@+id/encontrarNuevo"
         android:title="Encontrar"
         android:icon="@drawable/baseline_place_24" />
 
