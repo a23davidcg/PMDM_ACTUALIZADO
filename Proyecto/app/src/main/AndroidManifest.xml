@@ -20,7 +20,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto"
-        tools:targetApi="31">
+        tools:targetApi="31"
+        tools:replace="android:icon,android:theme">
+
+        <!-- PARA PODER VISUALIZAR EL PMMAPA ES NECESARIO ACTIVAR LAS CREDENCIALES DE LA API QUE GENERAMOS EN LA CONSOLA DE GOOGLE -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAtNvQ6UF6_jj31SHGSQBnzMNu09C2u8io"/>
+
+
         <activity
             android:name=".InicioActivity"
             android:exported="false" />
@@ -44,9 +53,6 @@
              project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
              "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
         -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY" />
     </application>
 
 </manifest>
