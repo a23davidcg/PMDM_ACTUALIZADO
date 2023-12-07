@@ -9,6 +9,7 @@ plugins {
 
 }
 
+
 android {
     namespace = "com.example.proyecto"
     compileSdk = 34

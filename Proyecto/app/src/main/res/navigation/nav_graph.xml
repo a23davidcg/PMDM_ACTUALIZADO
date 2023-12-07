@@ -36,16 +36,21 @@
         android:label="LoginRegisterMainFragment" >
         <action
             android:id="@+id/action_loginRegisterMainFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
         <action
             android:id="@+id/action_loginRegisterMainFragment_to_registerFragment"
             app:destination="@id/registerFragment" />
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.example.proyecto.RegisterFragment"
+        android:name="RegisterFragment"
         android:label="fragment_register"
-        tools:layout="@layout/fragment_register" />
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_menuInicio"
+            app:destination="@id/menuInicio" />
+    </fragment>
     <fragment
         android:id="@+id/activitiesFragment"
         android:name="com.example.proyecto.ActivitiesFragment"

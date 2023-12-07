@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterFragment">
+    android:orientation="vertical"
+    android:id="@+id/registerFragment"
+    >
 
     <!-- res/layout/registro_formulario.xml -->
 
@@ -13,23 +15,12 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <EditText
-            android:id="@+id/editTextNombre"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Nombre" />
-
-        <EditText
-            android:id="@+id/editTextApellido"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Apellido" />
 
         <EditText
             android:id="@+id/editTextCorreo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Correo electrónico"
+            android:hint="Correo"
             android:inputType="textEmailAddress" />
 
         <EditText
@@ -43,7 +34,15 @@
             android:id="@+id/botonRegistrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrar" />
+            android:text="Registrar"
+            android:onClick="registrarUsuario"/>
+
+        <Button
+            android:id="@+id/botonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:onClick="iniciarSesion"/>
 
     </LinearLayout>
 

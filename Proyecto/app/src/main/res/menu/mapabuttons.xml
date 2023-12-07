@@ -2,11 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/encontrarPersonas"
-        android:title="Encontrar personas"
+        android:title="@string/encontrar_personas"
         android:icon="@drawable/baseline_people_24"/>
     <item
         android:id="@+id/encontrarAmigos"
-        android:title="Encontrar amigos"
+        android:title="@string/encontrar_amigos"
         android:icon="@drawable/baseline_location_searching_24"/>
 
 </menu>

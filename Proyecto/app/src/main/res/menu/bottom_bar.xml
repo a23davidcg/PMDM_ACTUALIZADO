@@ -3,15 +3,15 @@
 
     <item
         android:id="@+id/nuevoLugar"
-        android:title="Nuevo lugar"
+        android:title="@string/nuevo_lugar"
         android:icon="@drawable/baseline_add_24" />
     <item
         android:id="@+id/amigosBottomBar"
-        android:title="Amigos"
+        android:title="@string/amigos"
         android:icon="@drawable/baseline_person_24" />
     <item
         android:id="@+id/encontrarNuevo"
-        android:title="Encontrar"
+        android:title="@string/encontrar"
         android:icon="@drawable/baseline_place_24" />
 
 </menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proyect</string>
+    <string name="acceder">Entry</string>
+    <string name="agregar_amigo">Add friend</string>
+    <string name="contrasenia">Password</string>
+    <string name="IniciarSesion">Log in</string>
+    <string name="registrar">Register</string>
+    <string name="nuevo_lugar">New place</string>
+    <string name="amigos">Friends</string>
+    <string name="encontrar">Find</string>
+    <string name="encontrar_personas">Find people</string>
+    <string name="encontrar_amigos">Find Friends</string>
+    <string name="actividades">Activities</string>
+    <string name="ajustes">Settings</string>
+</resources>

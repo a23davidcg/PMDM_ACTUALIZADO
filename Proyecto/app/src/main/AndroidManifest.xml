@@ -20,15 +20,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto"
-        tools:targetApi="31"
-        tools:replace="android:icon,android:theme">
-
-        <!-- PARA PODER VISUALIZAR EL PMMAPA ES NECESARIO ACTIVAR LAS CREDENCIALES DE LA API QUE GENERAMOS EN LA CONSOLA DE GOOGLE -->
-
+        tools:replace="android:icon,android:theme"
+        tools:targetApi="31">
+        <activity
+            android:name=".LoginRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity2"
+            android:exported="false" /> <!-- PARA PODER VISUALIZAR EL PMMAPA ES NECESARIO ACTIVAR LAS CREDENCIALES DE LA API QUE GENERAMOS EN LA CONSOLA DE GOOGLE -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAtNvQ6UF6_jj31SHGSQBnzMNu09C2u8io"/>
-
+            android:value="AIzaSyAtNvQ6UF6_jj31SHGSQBnzMNu09C2u8io" />
 
         <activity
             android:name=".InicioActivity"
@@ -42,17 +44,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--
-             TODO: Before you run your application, you need a Google Maps API key.
-
-             To get one, follow the directions here:
-
-                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-
-             Once you have your API key (it starts with "AIza"), define a new property in your
-             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-        -->
     </application>
 
 </manifest>
