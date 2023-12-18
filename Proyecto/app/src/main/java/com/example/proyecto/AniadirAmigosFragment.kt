@@ -24,16 +24,13 @@ class AniadirAmigosFragment : Fragment() {
         val btnAgregarAmigo: Button = view.findViewById(R.id.btnAgregarAmigo)
 
         btnAgregarAmigo.setOnClickListener {
-            // Aquí puedes agregar lógica para obtener la información del nuevo amigo
-            // y almacenarlo en algún lugar, como una base de datos o una lista.
-            // Por ejemplo, podrías abrir otro fragmento para ingresar detalles del amigo.
+
             abrirFragmentoIngresoAmigo()
         }
     }
 
     private fun abrirFragmentoIngresoAmigo() {
-        // Puedes implementar aquí la lógica para abrir el fragmento donde ingresan los detalles del amigo.
-        // Por ejemplo:
+
         val fragmentTransaction: FragmentTransaction = requireActivity().supportFragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.container, ListaAmigosFragment())
         fragmentTransaction.addToBackStack(null)

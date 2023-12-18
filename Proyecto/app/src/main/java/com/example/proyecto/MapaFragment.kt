@@ -76,13 +76,13 @@ class MapaFragment : Fragment() {
 
             )
 
-            // Puedes guardar la ubicación en una variable, base de datos, etc.
+            // Guardadr la ubicacion obtenida en la base de datos
             val latitud = latLng.latitude
             val longitud = latLng.longitude
 
 
 
-            // Aquí puedes realizar acciones adicionales con la ubicación obtenida
+            // Realizar acciones con la ubicacion obtenida
         }
     }
 

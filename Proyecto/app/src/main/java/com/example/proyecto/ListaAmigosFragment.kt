@@ -28,8 +28,7 @@ class ListaAmigosFragment : Fragment() {
     }
 
     private fun obtenerListaAmigos(): List<String> {
-        // Implementa la lógica para obtener la lista de amigos desde tu base de datos o fuente de datos
-        // Por ahora, devolveré una lista de ejemplo.
+
         return listOf("Amigo1", "Amigo2", "Amigo3")
     }
 }
